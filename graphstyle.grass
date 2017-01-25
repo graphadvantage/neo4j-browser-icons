@@ -1,0 +1,861 @@
+node {
+  diameter: 60px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #333;
+  font-size: 12px;
+}
+
+relationship {
+  color: #A5ABB6;
+  shaft-width: 2px;
+  font-size: 12px;
+  padding: 6px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: '<type>';
+}
+
+node.Icons {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+}
+
+node.Image {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: !;
+}
+
+node.Upload {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: (;
+}
+
+node.Download {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: );
+}
+
+node.KeyholeCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: *;
+}
+
+node.Link {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: +;
+}
+
+node.Unlink {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ,;
+}
+
+node.Visible {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: -;
+}
+
+node.Hidden {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: .;
+}
+
+node.Envelope {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: /;
+}
+
+node.DataWarning {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 0;
+}
+
+node.DataStop {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 1;
+}
+
+node.DataLock {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 2;
+}
+
+node.DataRefresh {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 3;
+}
+
+node.DataSettings {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 4;
+}
+
+node.DataEdit {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 5;
+}
+
+node.DataSubtract {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 6;
+}
+
+node.DataAdd {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 7;
+}
+
+node.DiskUpload {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 8;
+}
+
+node.DiskDownload {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: 9;
+}
+
+node.HeartCircleReverse {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: <;
+}
+
+node.Folder {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: =;
+}
+
+node.ChatBubble {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: >;
+}
+
+node.ChevronDoubleDown {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ?;
+}
+
+node.ChevronDoubleUp {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: @;
+}
+
+node.Controls {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: A;
+}
+
+node.Palette {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: B;
+}
+
+node.Analytics {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: C;
+}
+
+node.ChevronCircleRight {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: D;
+}
+
+node.ChevronCircleUp {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: E;
+}
+
+node.ChevronCircleDown {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: F;
+}
+
+node.ChevronLeft {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: G;
+}
+
+node.ChevronRight {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: H;
+}
+
+node.Close {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: I;
+}
+
+node.ChevronUp {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: J;
+}
+
+node.ChevronDown {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: K;
+}
+
+node.ArrowLeft {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: L;
+}
+
+node.ArrowRight {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: M;
+}
+
+node.ArrowUp {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: N;
+}
+
+node.Expand {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: O;
+}
+
+node.CloudDownload {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: P;
+}
+
+node.CloudUpload {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: Q;
+}
+
+node.Data {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: R;
+}
+
+node.Unlocked {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: S;
+}
+
+node.Locked {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: T;
+}
+
+node.ArrowDown {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: U;
+}
+
+node.TriangleDown {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: V;
+}
+
+node.KeyholeReverse {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: W;
+}
+
+node.StarCircleReverse {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: X;
+}
+
+node.TriangleUp {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: Y;
+}
+
+node.ChevronDownSkip {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: Z;
+}
+
+node.SubtractCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: [;
+}
+
+node.ChatBubbleChatting {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: \;
+}
+
+node.AddCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ];
+}
+
+node.CloseCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ^;
+}
+
+node.Home {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: _;
+}
+
+node.Location {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: `;
+}
+
+node.Star {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: a;
+}
+
+node.ChatBubbleText {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: b;
+}
+
+node.UserCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: c;
+}
+
+node.Settings {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: d;
+}
+
+node.Docs {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: e;
+}
+
+node.Graph {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: f;
+}
+
+node.Collapse {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: g;
+}
+
+node.Pin {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: h;
+}
+
+node.Heart {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: i;
+}
+
+node.HeartCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: j;
+}
+
+node.Contact {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: k;
+}
+
+node.Tiles {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: l;
+}
+
+node.CloudClose {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: m;
+}
+
+node.CloudCheck {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: n;
+}
+
+node.CloudRefresh {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: o;
+}
+
+node.DataCheck {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: p;
+}
+
+node.DataClose {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: q;
+}
+
+node.Code {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: r;
+}
+
+node.StarCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: s;
+}
+
+node.EditCircleReverse {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: t;
+}
+
+node.GraphCyclic {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: u;
+}
+
+node.ChevronCircleLeft {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: v;
+}
+
+node.PlayCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: w;
+}
+
+node.Cloud {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: x;
+}
+
+node.Warning {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: y;
+}
+
+node.QuestionCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: z;
+}
+
+node.Session {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: |;
+}
+
+node.Invoice {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ~;
+}
+
+node.Edit {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: #;
+}
+
+node.Trash {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: $;
+}
+
+node.EditCircle {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: %;
+}
+
+node.ZoomIn {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: &;
+}
+
+node.Flowchart {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ;
+}
+
+node.ZoomOut {
+ color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ;
+}
+
+node.User {
+  color: #FFD86E;
+  border-color: #EDBA39;
+  text-color-internal: #604A0E;
+  caption: '{name}';
+  diameter: 60px;
+  icon-code: ;
+  }
+
+  node.Table {
+    color: #FFD86E;
+    border-color: #EDBA39;
+    text-color-internal: #604A0E;
+    caption: '{name}';
+    diameter: 60px;
+    icon-code: ;
+  }
+
+  node.Script {
+    color: #FFD86E;
+    border-color: #EDBA39;
+    text-color-internal: #604A0E;
+    caption: '{name}';
+    diameter: 60px;
+    icon-code: ;
+  }
